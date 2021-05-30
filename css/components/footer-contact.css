@@ -1,0 +1,27 @@
+.contact {
+  margin-top: 20px;
+}
+
+.contact-title {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.item-contact {
+  list-style: none;
+  display: flex;
+  margin: 15px 0;
+  align-content: center;
+}
+
+.item-contact i {
+  color: var(--blue);
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+
+.item-contact span {
+  font-size: 1rem;
+  font-weight: 500;
+}

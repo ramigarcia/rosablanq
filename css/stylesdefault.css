@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-size: 18px;
+  --white: #ffffff;
+  --menosWhite: #eeeef4;
+  --grey: #c7cdd7;
+  --blue: #2e456f;
+  --brown: #404041;
+  --montserrat: "Montserrat", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --dancingScript: "Dancing Script", cursive;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  font-family: var(--montserrat);
+  color: var(--brown);
+  font-size: 1rem;
+}

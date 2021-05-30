@@ -1,0 +1,36 @@
+.nav {
+  background-color: var(--blue);
+  width: 80%;
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(150%);
+  transition: transform 0.3s ease-in;
+  z-index: 10;
+}
+.list {
+  width: 80%;
+  height: 80%;
+  list-style: none;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.item {
+  margin: auto;
+}
+.element {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.show-nav {
+  transform: translate(0);
+  transition: transform 0.3s ease-in;
+}

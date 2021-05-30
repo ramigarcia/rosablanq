@@ -1,0 +1,39 @@
+.form-newlestter {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.form-newlestter legend {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.form-newlestter-description {
+  font-size: 0.85rem;
+  font-family: var(--roboto);
+  margin-bottom: 15px;
+}
+
+.input-email-newlestter {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid var(--brown);
+  height: 40px;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+  color: var(--brown);
+}
+
+.btn-newlestter-form {
+  background-color: var(--brown);
+  margin: 15px auto;
+  width: 100%;
+  height: 40px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-family: var(--roboto);
+}

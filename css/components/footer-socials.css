@@ -1,0 +1,25 @@
+.socials {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.socials-title {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+}
+
+.social-element {
+  color: var(--blue);
+  text-decoration: none;
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 1rem;
+}
