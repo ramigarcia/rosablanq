@@ -1,4 +1,5 @@
 @import url("./stylesdefault.css");
+@import url("./components/overlay.css");
 @import url("./components/header-top.css");
 /* logo */
 @import url("./components/logo.css");

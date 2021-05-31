@@ -1,3 +1,7 @@
+.close-menu {
+  display: none;
+}
+
 .close-menu i {
   font-size: 2rem;
   cursor: pointer;
@@ -6,5 +10,8 @@
   right: 10px;
   top: 10px;
   color: white;
-  display: none;
+}
+
+.show-close-menu {
+  display: block;
 }
