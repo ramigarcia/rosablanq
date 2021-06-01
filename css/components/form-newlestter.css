@@ -1,3 +1,8 @@
+.form-newlestter-container {
+  width: 100%;
+  background-color: var(--grey);
+}
+
 .form-newlestter {
   margin: 20px auto;
   width: 100%;
@@ -36,4 +41,71 @@
   font-size: 1.1rem;
   letter-spacing: 1px;
   font-family: var(--roboto);
+}
+
+@media only screen and (min-width: 768px) {
+  .form-newlestter {
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+      "legend legend legend"
+      "description input button";
+    gap: 5px;
+  }
+
+  .form-newlestter legend {
+    font-size: 1.4rem;
+    grid-area: legend;
+  }
+
+  .form-newlestter-description {
+    font-size: 0.9rem;
+    grid-area: description;
+  }
+
+  .input-email-newlestter {
+    max-width: 320px;
+    grid-area: input;
+  }
+
+  .btn-newlestter-form {
+    grid-area: button;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 228px;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  .form-newlestter-description {
+    max-width: 377px;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .form-newlestter-description {
+    max-width: 420px;
+  }
+
+  .input-email-newlestter {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .btn-newlestter-form {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .input-email-newlestter {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .btn-newlestter-form {
+    width: 100%;
+    max-width: 400px;
+  }
 }
