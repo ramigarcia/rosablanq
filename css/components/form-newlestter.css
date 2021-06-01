@@ -80,26 +80,24 @@
   .form-newlestter-description {
     max-width: 377px;
   }
-}
-
-@media only screen and (min-width: 1160px) {
-  .form-newlestter-description {
-    max-width: 420px;
-  }
-
-  .input-email-newlestter {
-    width: 100%;
-    max-width: 400px;
-  }
 
   .btn-newlestter-form {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 1160px) {
+  .form-newlestter {
+    gap: 10px;
+  }
+  .form-newlestter-description {
+    font-size: 1.1rem;
+    max-width: 450px;
+  }
   .input-email-newlestter {
+    font-size: 1.1rem;
     width: 100%;
     max-width: 450px;
   }
