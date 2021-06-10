@@ -1,7 +1,7 @@
-.hamburger i {
-  font-size: 2rem;
-  cursor: pointer;
+.hamburger {
   position: absolute;
+  cursor: pointer;
   right: 10px;
   top: 10px;
+  display: block;
 }

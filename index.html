@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
   <title>Blanquería Rosario</title>
+  <!-- glider-js CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="./images/logo-redondo(12).png" type="image/x-icon">
   <!-- FONTS -->
@@ -40,22 +42,26 @@
     <section class="header-top">
       <div class="logo">
         <a href="index.html">
-          Blanquería Rosario
+          Rosablanq
         </a>
       </div>
-      <div class="close-menu">
-        <i class='bx bx-x'></i>
-      </div>
-      <div class="hamburger">
-        <i class='bx bx-menu'></i>
-      </div>
+      <svg class="close-menu" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"
+        style="fill:rgb(255, 255, 255);">
+        <path
+          d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z">
+        </path>
+      </svg>
+      <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"
+        style="fill:rgba(0, 0, 0, 1);">
+        <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path>
+      </svg>
       <nav class="nav">
         <ul class="list">
           <li class="item">
             <a href="#" class="element">Nosotros</a>
           </li>
           <li class="item">
-            <a href="#" class="element">Contacto</a>
+            <a href="#contacto" class="element">Contacto</a>
           </li>
           <li class="item">
             <a href="#" class="element">Envíos</a>
@@ -73,70 +79,127 @@
     </div>
   </header>
 
-  <main>
-    <div class="container">
-      <section class="section-products">
-        <h1 class="products-title">Algunos productos</h1>
-        <span class="products-span">Sabanas y Barbijos</span>
-        <div class="products-container">
-          <article class="card-product">
-            <figure class="image">
-              <img src="./images/producto-prueba.jpg" alt="">
-            </figure>
-            <div class="data-product">
-              <h2 class="name-product">Sabana blanca</h2>
-              <p class="description-product">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quam?
-              </p>
-              <a href="#" class="button-more">
-                Ver más <i class='bx bx-right-arrow-alt'></i>
-              </a>
-            </div>
-          </article>
-          <article class="card-product">
-            <figure class="image">
-              <img src="./images/producto-prueba.jpg" alt="">
-            </figure>
-            <div class="data-product">
-              <h2 class="name-product">Sabana blanca</h2>
-              <p class="description-product">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quam?
-              </p>
-              <a href="#" class="button-more">
-                Ver más <i class='bx bx-right-arrow-alt'></i>
-              </a>
-            </div>
-          </article>
-          <article class="card-product">
-            <figure class="image">
-              <img src="./images/producto-prueba.jpg" alt="">
-            </figure>
-            <div class="data-product">
-              <h2 class="name-product">Sabana blanca</h2>
-              <p class="description-product">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quam?
-              </p>
-              <a href="#" class="button-more">
-                Ver más <i class='bx bx-right-arrow-alt'></i>
-              </a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <div class="form-newlestter-container">
-        <form action="#" id="form-newlestter" class="form-newlestter">
-          <legend>Boletín informativo</legend>
-          <p class="form-newlestter-description">
-            Suscribete para obtener información sobre, descuentos, ofertas, etc. Además obtendras un envío grátis.
-          </p>
-          <input type="email" class="input-email-newlestter" name="email-newlestter" id="input-email-newlestter"
-            placeholder="email@ejemplo.com">
-          <input type="submit" class="btn-newlestter-form" id="btn-newlestter-form" value="Subscribirse">
-        </form>
+  <div class="container">
+    <section class="section-products">
+      <h1 class="products-title">Algunos productos</h1>
+      <span class="products-span">Sabanas y Barbijos</span>
+      <div class="products-container">
+        <article class="card-product">
+          <figure class="image">
+            <img src="./images/producto-prueba.jpg" alt="">
+          </figure>
+          <div class="data-product">
+            <h2 class="name-product">Sabana blanca</h2>
+            <p class="description-product">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quam?
+            </p>
+            <a href="#" class="button-more">
+              Ver más <i class='bx bx-right-arrow-alt'></i>
+            </a>
+          </div>
+        </article>
+        <article class="card-product">
+          <figure class="image">
+            <img src="./images/producto-prueba.jpg" alt="">
+          </figure>
+          <div class="data-product">
+            <h2 class="name-product">Sabana blanca</h2>
+            <p class="description-product">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quam?
+            </p>
+            <a href="#" class="button-more">
+              Ver más <i class='bx bx-right-arrow-alt'></i>
+            </a>
+          </div>
+        </article>
+        <article class="card-product">
+          <figure class="image">
+            <img src="./images/producto-prueba.jpg" alt="">
+          </figure>
+          <div class="data-product">
+            <h2 class="name-product">Sabana blanca</h2>
+            <p class="description-product">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quam?
+            </p>
+            <a href="#" class="button-more">
+              Ver más <i class='bx bx-right-arrow-alt'></i>
+            </a>
+          </div>
+        </article>
       </div>
-    </div>
+    </section>
+  </div>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <section class="popular__products">
+      <h3 class="popular__products-title">Productos populares</h3>
+      <p class="popular__products-paragraph">
+        En nuestra tienda vas a poder comprar saban y barbijos de calidad.
+      </p>
+      <div class="carousel">
+        <div class="carousel__contenedor">
+          <button aria-label="Anterior" class="carousel__anterior">
+            <i class='bx bxs-chevron-left'></i>
+          </button>
+          <div class="carousel__list">
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+            <div class="carousel__element">
+              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
+              <p>Rock and Roll Hall of Fame</p>
+            </div>
+          </div>
+          <button aria-label="Siguiente" class="carousel__siguiente">
+            <i class='bx bxs-chevron-right'></i>
+          </button>
+        </div>
+      </div>
+      <div role="tablist" class="carousel__indicadores"></div>
+    </section>
   </main>
+
+  <!-- NEWLESTTER -->
+  <div class="container">
+    <div class="form-newlestter-container">
+      <form action="#" id="form-newlestter" class="form-newlestter">
+        <legend>Boletín informativo</legend>
+        <p class="form-newlestter-description">
+          Suscribete para obtener información sobre, descuentos, ofertas, etc. Además obtendras un envío grátis.
+        </p>
+        <input type="email" class="input-email-newlestter" name="email-newlestter" id="input-email-newlestter"
+          placeholder="email@ejemplo.com">
+        <input type="submit" class="btn-newlestter-form" id="btn-newlestter-form" value="Subscribirse">
+      </form>
+    </div>
+  </div>
+  <!-- FOOTER -->
   <footer>
     <div class="container">
       <div class="logo">
@@ -145,7 +208,7 @@
         </a>
       </div>
 
-      <div class="contact">
+      <div class="contact" id="contacto">
         <h3 class="contact-title" href="#">Contactanos</h3>
         <li class="item-contact">
           <i class='bx bx-phone'></i> <span>1132142048</span>
@@ -195,6 +258,8 @@
       </li>
     </ul>
   </nav>
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+  <script src="./js/components/carousel.js"></script>
   <script src="./js/components/nav.js"></script>
 </body>
 

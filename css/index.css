@@ -11,6 +11,8 @@
 /* product */
 @import url("./components/cardProduct.css");
 @import url("./components/product.css");
+/* carousel */
+@import url("./components/carousel.css");
 /* form newlestter */
 @import url("./components/form-newlestter.css");
 /* footer */
@@ -22,7 +24,6 @@
 
 .container {
   width: 100%;
-  max-width: 95%;
   margin: auto;
 }
 
@@ -105,21 +106,19 @@
   border: none;
 }
 
-main {
-  background-color: var(--grey);
-  border: 1px solid var(--grey);
-}
-
 /* SECCION DE PRODUCTOS */
 
 .section-products {
-  margin: 20px auto;
+  margin: 8px auto 0;
+  background-color: var(--grey);
   width: 100%;
+  padding-top: 10px;
 }
 
 .products-title {
   font-size: 1.3rem;
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 .products-span {
@@ -127,6 +126,7 @@ main {
   font-weight: 500;
   font-family: var(--roboto);
   color: var(--brown);
+  margin-left: 5px;
 }
 
 .products-container {
@@ -139,6 +139,12 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 
+/* POPULAR PRODUCTS */
+.popular__products {
+  border: 1px solid red;
+  min-height: 480px;
+  background-color: var(--menosWhite);
+}
 @media screen and (min-width: 713px) {
   .products-container {
     grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
