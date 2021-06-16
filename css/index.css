@@ -135,7 +135,7 @@
 /* POPULAR PRODUCTS */
 .popular__products {
   min-height: 480px;
-  padding: 10px 0 10px 5px;
+  padding: 25px 0 25px 5px;
   background-color: var(--menosWhite);
 }
 

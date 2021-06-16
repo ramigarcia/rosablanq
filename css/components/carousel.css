@@ -15,3 +15,7 @@
 .carousel__indicadores .glider-dot.active {
   opacity: 1;
 }
+
+.carousel__list.glider.draggable .glider-track {
+  padding: 15px 0;
+}
