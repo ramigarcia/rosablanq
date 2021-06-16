@@ -13,6 +13,7 @@
 @import url("./components/product.css");
 /* carousel */
 @import url("./components/carousel.css");
+@import url("./components/product-carousel.css");
 /* form newlestter */
 @import url("./components/form-newlestter.css");
 /* footer */
@@ -121,14 +122,6 @@
   margin-left: 5px;
 }
 
-.products-span {
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: var(--roboto);
-  color: var(--brown);
-  margin-left: 5px;
-}
-
 .products-container {
   margin: 20px auto 0;
   width: 100%;
@@ -141,10 +134,21 @@
 
 /* POPULAR PRODUCTS */
 .popular__products {
-  border: 1px solid red;
   min-height: 480px;
+  padding: 10px 0 10px 5px;
   background-color: var(--menosWhite);
 }
+
+.popular__products-title {
+  font-size: 1.2rem;
+}
+
+.popular__products-paragraph {
+  font-size: 0.9rem;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 713px) {
   .products-container {
     grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));

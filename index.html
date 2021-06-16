@@ -6,11 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
-  <title>Blanquería Rosario</title>
   <!-- glider-js CSS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
-  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="./images/logo-redondo(12).png" type="image/x-icon">
+  <title>Blanquería Rosario</title>
   <!-- FONTS -->
   <!-- MONTSERRAT 300 400 500 700 -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,6 +19,8 @@
   <!-- ROBOTO 300 400 -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/logo-redondo(12).png" type="image/x-icon">
   <!-- META PROPS-->
   <meta name="description" content="Descripción">
   <meta name="canonical" href="ruta_absoluta">
@@ -33,6 +33,7 @@
   <meta property="og:image" name="twitter:image" content="ruta_absoluta/images/imagen_de_rosablanq.jpg_o_.png">
   <meta property="og:url" name="twitter:url" content="ruta_absoluta">
   <meta property="og:description" name="twitter:description" content="Descripción">
+
 </head>
 </head>
 
@@ -81,8 +82,7 @@
 
   <div class="container">
     <section class="section-products">
-      <h1 class="products-title">Algunos productos</h1>
-      <span class="products-span">Sabanas y Barbijos</span>
+      <h1 class="products-title">Otros productos</h1>
       <div class="products-container">
         <article class="card-product">
           <figure class="image">
@@ -135,53 +135,251 @@
     <section class="popular__products">
       <h3 class="popular__products-title">Productos populares</h3>
       <p class="popular__products-paragraph">
-        En nuestra tienda vas a poder comprar saban y barbijos de calidad.
+        En nuestra tienda vas a poder comprar sabanas y barbijos de calidad.
       </p>
       <div class="carousel">
         <div class="carousel__contenedor">
-          <button aria-label="Anterior" class="carousel__anterior">
+          <!-- <button aria-label="Anterior" class="carousel__anterior">
             <i class='bx bxs-chevron-left'></i>
-          </button>
+          </button> -->
           <div class="carousel__list">
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <!-- producto -->
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
-            <div class="carousel__element">
-              <img src="./images/logo-redondo(12).png" alt="Rock and Roll Hall of Fame">
-              <p>Rock and Roll Hall of Fame</p>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
+            </div>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
+            </div>
+            <div class="carousel__card">
+              <button class="favorite-btn" id="btn-favorite">
+                <i class='bx bx-heart'></i>
+              </button>
+              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
+                height="275">
+              <div class="title">
+                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
+                <button class="btn-shopping-bag" id="btn-shopping-bag">
+                  <i class='bx bx-shopping-bag'></i>
+                </button>
+              </div>
+              <div class="producto">
+                <p class="description-product-carousel">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </p>
+              </div>
+              <div class="precio">
+                <span class="price-product-carousel" id="price-product-carousel">
+                  155$
+                </span>
+              </div>
             </div>
           </div>
-          <button aria-label="Siguiente" class="carousel__siguiente">
+          <!-- <button aria-label="Siguiente" class="carousel__siguiente">
             <i class='bx bxs-chevron-right'></i>
-          </button>
+          </button> -->
         </div>
       </div>
-      <div role="tablist" class="carousel__indicadores"></div>
     </section>
   </main>
 

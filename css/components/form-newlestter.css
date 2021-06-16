@@ -1,4 +1,5 @@
 .form-newlestter-container {
+  padding: 15px 7px 10px;
   width: 100%;
   background-color: var(--grey);
 }
