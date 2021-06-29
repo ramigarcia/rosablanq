@@ -35,7 +35,6 @@
   <meta property="og:description" name="twitter:description" content="Descripción">
 
 </head>
-</head>
 
 <body id="home">
   <div class="overlay"></div>
@@ -142,238 +141,28 @@
           <!-- <button aria-label="Anterior" class="carousel__anterior">
             <i class='bx bxs-chevron-left'></i>
           </button> -->
-          <div class="carousel__list">
+          <div class="carousel__list" id="productos">
             <!-- producto -->
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
+            <template id="card">
+              <div class="carousel__card card">
+                <button class="favorite-btn" id="btn-favorite">
+                  <i class='bx bx-heart'></i>
                 </button>
+                <img width="367" height="275" loading="lazy">
+                <div class="title">
+                  <!-- titulo del producto -->
+                  <button class="btn-shopping-bag" id="btn-shopping-bag">
+                    <i class='bx bx-shopping-bag'></i>
+                  </button>
+                </div>
+                <div class="producto">
+                  <!-- descripción del producto -->
+                </div>
+                <div class="precio">
+                  <!-- precio producto -->
+                </div>
               </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
-            <div class="carousel__card">
-              <button class="favorite-btn" id="btn-favorite">
-                <i class='bx bx-heart'></i>
-              </button>
-              <img src="./images/index-hero-cama.jpg" alt="Rock and Roll Hall of Fame" loading="lazy" width="367"
-                height="275">
-              <div class="title">
-                <h4 class="title-product-carousel">Lorem, ipsum dolor.</h4>
-                <button class="btn-shopping-bag" id="btn-shopping-bag">
-                  <i class='bx bx-shopping-bag'></i>
-                </button>
-              </div>
-              <div class="producto">
-                <p class="description-product-carousel">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
-              </div>
-              <div class="precio">
-                <span class="price-product-carousel" id="price-product-carousel">
-                  155$
-                </span>
-              </div>
-            </div>
+            </template>
           </div>
           <!-- <button aria-label="Siguiente" class="carousel__siguiente">
             <i class='bx bxs-chevron-right'></i>
@@ -457,6 +246,11 @@
     </ul>
   </nav>
   <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+  <!-- CDN de Firebase -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://js.stripe.com/v3/"></script>
+
+  <script src="./js/loadProducts.js" type="module"></script>
   <script src="./js/components/carousel.js"></script>
   <script src="./js/components/nav.js"></script>
 </body>
