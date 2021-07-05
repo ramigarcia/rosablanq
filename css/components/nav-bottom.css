@@ -7,6 +7,13 @@
   width: 100%;
   background-color: var(--blue);
   padding: 10px;
+  transform: translateY(100%);
+  transition: all .3s ease-in-out;
+}
+
+.nav-bottom-active{
+  transform: translateY(0);
+  transition: all .3s ease-in-out;
 }
 
 .list-bottom {

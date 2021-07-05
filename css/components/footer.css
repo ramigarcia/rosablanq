@@ -17,3 +17,68 @@ footer .logo {
 footer .logo a {
   font-size: 2rem;
 }
+
+@media screen and (min-width: 664px) {
+  footer {
+    background-color: var(--blue);
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+
+  footer .logo a {
+    color: var(--white);
+  }
+
+  footer .contact {
+    margin: 0px;
+  }
+
+  footer .contact-title {
+    font-size: 1.1rem;
+  }
+
+  footer .socials {
+    margin: 0;
+    height: 100%;
+  }
+
+  footer .socials-title {
+    font-size: 1.1rem;
+    color: var(--white);
+  }
+
+  footer .social-list {
+    text-align: left;
+    display: block;
+    list-style: none;
+  }
+
+  footer .social-item{
+    margin: 10px 0;
+  }
+
+  footer .social-element {
+    color: var(--white);
+    font-weight: 300;
+  }
+
+  footer .contact-title {
+    color: var(--white);
+  }
+
+  footer .item-contact {
+    color: white;
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+  }
+  footer .item-contact i {
+    color: var(--white);
+    margin-right: 10px;
+    font-size: 1.4rem;
+  }
+}
